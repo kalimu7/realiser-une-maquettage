@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: calc(100vh - 0px);
+    
+    /* background-image:   url(./pexels-robin-stickel-70497.jpg) ; */
+    
+    /* background-size: 100%; */
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5))  , url(./pexels-robin-stickel-70497.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navcontainer{
+    border: 1px brown solid;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.navcontainer label{
+    color: brown;
+    padding-left: 40px;
+    line-height: 80px;
+}
+.navcontainer ul{
+    float: right;
+    line-height: 80px;
+}
+.navcontainer ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.navcontainer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.coText{
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+.coText h1{
+    padding-bottom:80px ;
+}
+.coText p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.menucontainer{
+    background: rgba(0,0,0,0.1) url(./pexels-pixabay-260922.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.menucontainer{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.menucontainer h1{
+    padding-top:20px ;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.submenu-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.submenu-container .row{
+    display:   block;
+    margin-bottom: 50px;
+}
+.submenu-container img{
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+}
+.text1{
+    position: absolute;
+    top: 110px;
+    left: 480px;
+    width: 150px;
+    background-color:  #36080B;
+}
+.text2{
+    position: absolute;
+    top: 110px;
+    left: 648px;
+    width: 152px;
+    background-color: #36080B;
+}
+.text3{
+    position: absolute;
+    top: 310px;
+    left: 480px;
+    width: 150px;
+    background-color:  #36080B;
+}
+.text4{
+    position: absolute;
+    top: 310px;
+    left: 648px;
+    width: 150px;
+    background-color:  #36080B ;
+}
