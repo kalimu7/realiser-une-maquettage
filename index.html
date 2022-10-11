@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
     <Link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body>
     <div class="container">
         <div class="navcontainer">
-            <label for="#">LACANYADA</label>
+            <label class="logo" >LACANYADA</label>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
@@ -21,7 +22,11 @@
                 <li><a href="#">Conatact Us</a></li>
                 <li><a href="#">FeedBack</a></li>
             </ul>
+            
         </div>
+        
+            <label id="icon" for="respo"><i class="bi bi-list-ul"></i></label>
+            <input type="checkbox" id="respo">
         <div class="coText">
             <h1>LACANYADA</h1>
             <p>
@@ -32,17 +37,28 @@
             </p>
         </div>
     </div>
+    <!-- menu page -->
     <div class="menucontainer">
         <h1>Menu</h1>
-        <div class="submenu-container">
-            <div class="row">
-                 <h3 class="text1" >NOS PIZZA</h3> <h3 class="text2" >NOS PIZZA</h3> <h3 class="text3" >NOS PIZZA</h3> <h3 class="text4" >NOS PIZZA</h3>
-                <a href="./meunpages/tacos.html"><img src="./pexels-sydney-troxell-708587.jpg" alt=""></a>
-                <a href=""><img src="./pexels-sydney-troxell-708587.jpg" alt=""></a>
+        <div class="submenu-container H1">
+            <div class="card">
+                <h2>NOS PIZZA</h2>
+                <div class="menuimg i1"></div>
             </div>
-            <div class="row">
-                    <a href=""><img src="./pexels-valeria-boltneva-1639562.jpg " alt=""></a> 
-                    <a href=""><img src="./pexels-valeria-boltneva-1639562.jpg" alt=""></a>
+            <div class="card">
+                <h2>NOS TACOS</h2>
+                <div class="menuimg i2"></div>
+            </div>
+        </div>
+        <div class="submenu-container">
+            <br>
+            <div class="card">
+                <h2>NOS BURGER</h2>
+                <div class="menuimg i3"></div>
+            </div>
+            <div class="card">
+                <h2>NOS PLAT</h2>
+                <div class="menuimg i4"></div>
             </div>
         </div>
 
