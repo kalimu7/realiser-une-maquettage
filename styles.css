@@ -7,7 +7,7 @@
     height: 100vh;
     /* background-image:   url(./pexels-robin-stickel-70497.jpg) ; */
     /* background-size: 100%; */
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5))  , url(./pexels-robin-stickel-70497.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)) , url(./pexels-robin-stickel-70497.jpg);
     background-position: center;
     
     background-repeat: no-repeat;
@@ -22,6 +22,9 @@
 #check{
     display: none;
 }
+#Respo{
+    display: none;
+}
 
 
 /* its media querry */
@@ -30,18 +33,16 @@
     .navcontainer ul li {
         font-size: 5px;
     }
-    .navcontainer ul li {
+    /* .navcontainer ul li {
         padding-right: 20px;
-    }
-}
-@media screen and (max-width: 703px) {
+    } */
+
+    
     #icon{
         cursor: pointer;
         display: block;
         color: rgb(179, 35, 35);
-        position: absolute;
-        top: 25px;
-        right: 20px;    
+        line-height: 80px;    
     }
     #check{
         display: block;
@@ -56,10 +57,12 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-       
+        transition: all 2s ease;
     }
-   input[type=checkbox]:checked ~ ul {
-        left: 0;
+    #Respo:checked ~ ul {
+        left: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     /* ul li a{
         margin-top: 0;
@@ -107,7 +110,6 @@
     background: rgba(0,0,0,0.1) url(./pexels-pixabay-260922.jpg);
     background-size: cover;
     height: 100vh;
-    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -176,15 +178,22 @@
         padding-top: 5px;
     }
     .card{
-        height: 100px;
-        width: 120px;
+        height: 150px;
+        width: 170px;
+        
     }
     .card h2{
         font-size: 10px;
     }
     .menuimg{
-        height: 90px;
+        height: 140px;
     }
+    .menucontainer{
+        padding-top: 40px;
+    }
+    
+    
+    
 }
 @media screen and (max-width :479px) {
     /* .card{
@@ -197,7 +206,30 @@
     .menuimg{
         height: 40px;
     } */
+    .menucontainer {
+        height: 400px;
+    }
     .submenu-container{
         flex-wrap: wrap;
+        
+    }
+    .coText h1{
+        font-size: 20px;
+    }
+    .coText p{
+        font-size: 15px;
+    }
+    .menucontainer h1{
+        padding-top: 3px;
+    }
+    .menucontainer{
+        padding-top: 0;
+    }
+    
+    
+}
+@media screen and (max-width : 378px) {
+    .menucontainer{
+        height: 750px;
     }
 }
