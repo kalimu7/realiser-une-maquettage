@@ -87,7 +87,7 @@
 }
 .col1 .img{
     height: 230px;
-    background: url(/burger.jpg);
+    background: url(/Pizza.jpg);
     background-size: cover;
 }
 .col1 h1{
@@ -122,9 +122,8 @@
 .col2 a{
     text-decoration: none;
 }
-
 /************************************ making it responisive ****************************/
-@media screen and (max-width :480px) {
+@media screen and (max-width :547px) {
     .row{
         flex-wrap: wrap;
         justify-content: center;

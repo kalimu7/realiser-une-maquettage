@@ -122,9 +122,8 @@
 .col2 a{
     text-decoration: none;
 }
-
 /************************************ making it responisive ****************************/
-@media screen and (max-width :480px) {
+@media screen and (max-width :608px) {
     .row{
         flex-wrap: wrap;
         justify-content: center;
